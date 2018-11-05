@@ -1,0 +1,25 @@
+/*
+Theme Name:     Dorian Morgan
+Theme URI:      https://www.elegantthemes.com/gallery/divi/
+Description:    dorianmorgan.com
+Author:         DLM
+Author URI:     https://www.elegantthemes.com
+Template:       DIVI
+Version:        1.0.2
+*/
+
+/* BASE
+========================================================================== */
+
+@import 'base/_typography';
+
+/* MODULES
+========================================================================== */
+
+@import 'modules/_nav';
+@import 'modules/_footer';
+
+/* PAGES
+========================================================================== */
+
+@import 'pages/_home';

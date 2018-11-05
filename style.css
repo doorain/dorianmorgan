@@ -7,200 +7,184 @@ Author URI:     https://www.elegantthemes.com
 Template:       DIVI
 Version:        1.0.2
 */
+/* BASE
+========================================================================== */
+/*------------------------------------*
+	  Typography
 
+\*------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Cardo|Lato:400,700");
+h1 {
+  font-family: 'Cardo', serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 44px;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
 
-/* =Theme customization starts here
-------------------------------------------------------- */
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
 
-@import url('https://fonts.googleapis.com/css?family=Cardo|Lato:400,700');
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 24px;
+  color: #23246E;
+}
 
-h1{
-	font-family: 'Cardo', serif;;
-	font-weight: 700;
-	font-size: 32px;
-	line-height: 44px;
-	color: #0091B6;
+h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 24px;
+  color: #23246E;
+  font-style: italic;
 }
-h2{
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 22px;
-	line-height: 24px;
-	color: #0091B6;
-	text-transform: uppercase;
+
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23246E;
 }
-h3{
-	font-family: 'Lato', sans-serif;
-	font-weight: 700;
-	font-size: 22px;
-	line-height: 24px;
-	color: #23246E;
+
+li {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #23246E;
 }
-h4{
-	font-family: 'Lato', sans-serif;
-	font-weight: 400;
-	font-size: 16px!important;
-	line-height: 24px;
-	color: #23246E;
-	font-style: italic;
+
+a {
+  font-weight: bold;
 }
-p{
-	font-family: 'Lato', sans-serif ;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	color: #23246E;
+
+.green {
+  color: #B2CF35;
 }
-li{
-	font-family: 'Lato', sans-serif ;
-	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
-	color: #23246E;
-}
-a{
-	font-weight: bold;
-}
-.green{
-	color:#B2CF35;
-}
-.et_pb_portfolio_item h2, .et_pb_post h2, .et_pb_title_container h1{
-	font-size: 26px!important;
+
+.et_pb_portfolio_item h2, .et_pb_post h2, .et_pb_title_container h1 {
+  font-size: 26px !important;
 }
 
 iframe, object, embed {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 html {
-    position: relative;
-    min-height: 100%;
+  position: relative;
+  min-height: 100%;
 }
 
+/* MODULES
+========================================================================== */
+/*------------------------------------*
+
+  HEADER / Nav Module
+
+\*------------------------------------*/
 /* --------------- Header / Nav--------------- */
-header#main-header.et-fixed-header, #main-header{
-	-webkit-box-shadow:none !important;
-	-moz-box-shadow:none !important;
-	box-shadow:none !important;
-}
-#main-header{
-	background-color: #ffffff00;
-}
-#top-menu-nav>ul>li>a:hover{
-	color:#0091B6;
-	opacity: 1;
-}
-#main-header .nav li ul a{
-	color:#0091B6!important;
-}
-.et_mobile_menu li a{
-	    color: #666!important;
-}
-.mobile_menu_bar:before{
-			color: #b2cf35!important;
+header#main-header.et-fixed-header, #main-header {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
 }
 
+#main-header {
+  background-color: #ffffff00;
+}
+
+#top-menu-nav > ul > li > a:hover {
+  color: #0091B6;
+  opacity: 1;
+}
+
+#main-header .nav li ul a {
+  color: #0091B6 !important;
+}
+
+.et_mobile_menu li a {
+  color: #666 !important;
+}
+
+.mobile_menu_bar:before {
+  color: #ce0f01 !important;
+}
 
 /*-----------------[CTA Menu Item]----------------*/
 .menu-cta {
-	border-radius: 0px;}
+  border-radius: 0px;
+}
+
 .menu-cta a {
-	color: #fff!important;}
+  color: #fff !important;
+}
+
 li.menu-cta {
-  background-color:#ce0f01;
+  background-color: #ce0f01;
   font-weight: 700;
   text-align: center;
-  padding: 10px!important;
+  padding: 10px !important;
   border-radius: 3px;
   -moz-transition: all 0.5s;
   -webkit-transition: all 0.5s;
-  transition: all 0.5s;}
+  transition: all 0.5s;
+}
+
 li.menu-cta:hover {
-	background-color:#ff4f00;}
+  background-color: #ff4f00;
+}
+
 /* fixed header button text color */
 .et-fixed-header #top-menu .menu-cta a {
-  color: #fff!important;}
+  color: #fff !important;
+}
+
 .menu-cta li.current-menu-ancestor > a, .menu-cta li.current-menu-item > a {
-  color: #fff !important;}
-@media only screen and (min-width : 981px) {
+  color: #fff !important;
+}
+
+@media only screen and (min-width: 981px) {
   li.menu-cta {
-		height: 33px;
-	}
+    height: 33px;
+  }
 }
 
-/*-----------------home Page----------------*/
-#homepage-header-container{
-	margin-top: -66px;
-}
-.avatar-image{
-	margin-top: -162px;
-}
-.flexbox-text{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
-}
+/*------------------------------------*
 
+  Footer Module
 
-.white-button{
-	color: #0091b6!important;
-	border-width: 0px!important;
-	border-radius: 6px;
-	font-weight: 700!important;
-	background-color: #ffffff!important;
-}
-.white-button:hover{
-	background-color: #b2cf35;
-	color: #ffffff;
-}
-
-
-/* -----------------------Blog Page ------------------------ */
-/* #blog-page-container .et_pb_post .post-content {
-	display: block;
-} */
-
-
-
+\*------------------------------------*/
 /* -----------------------Footer ------------------------ */
-/* #mian-footer{
-	position: absolute;
-}
-.container{
-	max-width: 100%;
-}
-#footer-bottom {
-    display: none;
-}
-#custom_html-4{
-	width: 100%;
-}
-.footer-wrapper{
-	display: flex;
-  width: inherit;
-	align-items: center;
-  justify-content: space-between;
-}
-.footer-icon-container{
-	display: flex;
-}
-.footer-social-icons{
-	height: 25px!important;
-	margin: 10px 20px 10px 0px
-} */
+/* PAGES
+========================================================================== */
+/*------------------------------------*
 
-/*----------------MEDIA QUERIES----------------*/
-@media only screen and (min-width: 1900px) {
+  HOME PAGE
 
-}
-@media only screen and (max-width: 1024px) {
-
-}
-@media only screen and (max-width: 980px) {
-
+\*------------------------------------*/
+/*-----------------Top Section----------------*/
+#homepage-header-container {
+  margin-top: -66px;
 }
 
-@media only screen and (max-width: 725px) {
+.avatar-image {
+  margin-top: -162px;
+}
 
+.flexbox-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }

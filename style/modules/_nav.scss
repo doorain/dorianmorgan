@@ -1,0 +1,56 @@
+/*------------------------------------*
+
+  HEADER / Nav Module
+
+\*------------------------------------*/
+
+/* --------------- Header / Nav--------------- */
+header#main-header.et-fixed-header, #main-header{
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
+}
+#main-header{
+	background-color: #ffffff00;
+}
+#top-menu-nav>ul>li>a:hover{
+	color:#0091B6;
+	opacity: 1;
+}
+#main-header .nav li ul a{
+	color:#0091B6!important;
+}
+.et_mobile_menu li a{
+	    color: #666!important;
+}
+.mobile_menu_bar:before{
+			color: #ce0f01!important;
+}
+
+
+/*-----------------[CTA Menu Item]----------------*/
+.menu-cta {
+	border-radius: 0px;}
+.menu-cta a {
+	color: #fff!important;}
+li.menu-cta {
+  background-color:#ce0f01;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px!important;
+  border-radius: 3px;
+  -moz-transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;}
+li.menu-cta:hover {
+	background-color:#ff4f00;}
+/* fixed header button text color */
+.et-fixed-header #top-menu .menu-cta a {
+  color: #fff!important;}
+.menu-cta li.current-menu-ancestor > a, .menu-cta li.current-menu-item > a {
+  color: #fff !important;}
+@media only screen and (min-width : 981px) {
+  li.menu-cta {
+		height: 33px;
+	}
+}

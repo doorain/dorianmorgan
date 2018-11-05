@@ -1,0 +1,70 @@
+/*------------------------------------*\
+
+	  Typography
+
+\*------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Cardo|Lato:400,700');
+
+h1{
+	font-family: 'Cardo', serif;;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 44px;
+	color: #ffffff;
+	padding-bottom: 20px;
+}
+h2{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 24px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+h3{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 24px;
+	color: #23246E;
+}
+h4{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px!important;
+	line-height: 24px;
+	color: #23246E;
+	font-style: italic;
+}
+p{
+	font-family: 'Lato', sans-serif ;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23246E;
+}
+li{
+	font-family: 'Lato', sans-serif ;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	color: #23246E;
+}
+a{
+	font-weight: bold;
+}
+.green{
+	color:#B2CF35;
+}
+.et_pb_portfolio_item h2, .et_pb_post h2, .et_pb_title_container h1{
+	font-size: 26px!important;
+}
+
+iframe, object, embed {
+    max-width: 100%;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
